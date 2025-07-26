@@ -81,3 +81,10 @@ yarn-error.*
 credentials.json
 
 # @end expo-cli
+
+# Binary files
+assets/images/*.png
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.gif
+assets/images/*.ico
