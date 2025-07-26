@@ -17,6 +17,9 @@
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease"
       },
+      "ios": {
+        "buildConfiguration": "Release"
+      },
       "env": {
         "NODE_ENV": "production",
         "EXPO_PUBLIC_SUPABASE_URL": "https://kpzpsljkpvalemxgzsis.supabase.co",
@@ -29,6 +32,9 @@
         "buildType": "app-bundle",
         "credentialsSource": "local",
         "gradleCommand": ":app:bundleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
       },
       "env": {
         "NODE_ENV": "production",
